@@ -14,7 +14,7 @@ app.use(express.json());
 // ✅ Use CORS only once with proper settings
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow frontend URL
+    origin: "https://yoga12.netlify.app/", // Allow frontend URL
     credentials: true, // Allow cookies & authentication headers
   })
 );
